@@ -175,9 +175,7 @@ function cardXeno(){
 function profil (){
     const Cardlist = []
 
-    cardHuman(){
-        return
-    }
+  
     
 }
 
