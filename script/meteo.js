@@ -43,23 +43,6 @@ document.addEventListener('mouseup',(e)=>{
 
 //8
 
-/*bouton.addEventListener("charger").onclick = function () {
-      fetch("https://prevision-meteo.ch/services/json/toulouse")
-        .then(response => response.json())
-        .then(data => {
-          const condition = data.current_condition.condition;
-          const tempActuelle = data.current_condition.tmp;
-          const tmax = data.fcst_day_0.tmax;
-          const tmin = data.fcst_day_0.tmin;
-          document.getElementById("meteo").innerHTML =
-            `<b>Condition actuelle :</b> ${condition}<br>
-             <b>Température actuelle :</b> ${tempActuelle}°C<br>
-             <b>Température max aujourd'hui :</b> ${tmax}°C<br>
-             <b>Température min aujourd'hui :</b> ${tmin}°C`;
-        });
-    };
-*/
-
 
 //9
 boutton();
